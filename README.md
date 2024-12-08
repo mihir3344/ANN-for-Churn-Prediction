@@ -21,7 +21,7 @@ The goal of this project is to predict whether a customer will churn (leave) bas
 - **Missing Value Imputation**: Missing values in the `TotalCharges` column are imputed using the median.
 - **Feature Transformation**: Features like `MonthlyCharges`, `Tenure`, and `TotalCharges` are transformed with `np.log1p` to reduce skewness.
 - **Categorical Encoding**: Categorical features (e.g., `InternetService`, `Contract`, `PaymentMethod`) are one-hot encoded.
-- **Feature Scaling**: Features are scaled using `MaxAbsScaler`.
+- **Feature Scaling**: Features are scaled using `RobustScaler`.
 - **SMOTE**: SMOTE is applied to balance the class distribution.
 
 ## Model Architecture
