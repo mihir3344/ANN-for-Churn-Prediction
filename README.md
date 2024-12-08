@@ -68,12 +68,4 @@ The model is evaluated using accuracy and binary crossentropy loss. The best mod
 
 These results demonstrate the model's effectiveness in predicting customer churn with a balanced trade-off between loss and accuracy.
 
----
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/churn-prediction.git
-   cd churn-prediction
-
+--
